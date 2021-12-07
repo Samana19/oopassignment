@@ -13,7 +13,7 @@ public class PalindromeString {
 
         length=palindrome.length();
         for ( int i = length - 1; i >= 0; i-- )
-            rev = rev + palindrome.toLowerCase().charAt(i);
+            rev = rev + palindrome.charAt(i);
 
         if (palindrome.equals(rev))
             System.out.println(palindrome+" is a palindrome");
