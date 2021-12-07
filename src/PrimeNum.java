@@ -20,7 +20,7 @@ public class PrimeNum {
             }
 
             if (k <= 2) {
-                System.out.println(i);
+                System.out.println("Prime number :" +i);
             }
 
         }
